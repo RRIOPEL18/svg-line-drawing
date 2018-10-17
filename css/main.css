@@ -13,7 +13,11 @@ animation: rainbow 2s linear forwards;
 }
 
 @keyframes rainbow {
-  to{
+  0% {
+    stroke-dashoffset: 1917;
+  }
+
+  100% {
     stroke-dashoffset: 0;
   }
 
@@ -54,13 +58,19 @@ animation: rainbow 2s linear forwards;
   stroke-dashoffset: 1243px;
 }
 
-#narwhal {
+#narwhal-body {
 stroke-dasharray: 1982px;
 stroke-dashoffset: 1982px;
 animation: narwhal 1s linear forwards;
 }
 
 @keyframes narwhal {
-  to{
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
     stroke-dashoffset: 0;
   }
+
+}
