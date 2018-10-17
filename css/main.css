@@ -3,7 +3,12 @@ html {
 }
 
 h1 {
-  top: 20%;
+  color: #fff;
+  left: 50px;
+  bottom: 280px;
+  max-width: 180px;
+  opacity: 0;
+  animation: fade-in .5s .5s ease-in forwards;
 }
 
 #rainbow {
@@ -71,6 +76,23 @@ animation: narwhal 1s linear forwards;
 
   100% {
     stroke-dashoffset: 0;
+  }
+
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: fade-in .5s .5s ease-in forwards;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 
 }
