@@ -12,9 +12,9 @@ h1 {
 }
 
 #rainbow {
-stroke-dasharray: 1917px;
-stroke-dashoffset: 1917px;
-animation: rainbow 2s linear forwards;
+  stroke-dasharray: 1917px;
+  stroke-dashoffset: 1917px;
+  animation: rainbow 2s linear forwards;
 }
 
 @keyframes rainbow {
@@ -64,9 +64,9 @@ animation: rainbow 2s linear forwards;
 }
 
 #narwhal-body {
-stroke-dasharray: 1982px;
-stroke-dashoffset: 1982px;
-animation: narwhal 1s linear forwards;
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
+  animation: narwhal 1s linear forwards;
 }
 
 @keyframes narwhal {
