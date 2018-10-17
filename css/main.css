@@ -1,0 +1,60 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  top: 20%;
+}
+
+#rainbow {
+stroke-dasharray: 11125px;
+stroke-dashoffset: 11125px;
+animation: rainbow 2s linear forwards;
+}
+
+@keyframes rainbow {
+  to{
+    stroke-dashoffset: 0;
+  }
+
+}
+
+.rainbow-violet {
+}
+
+
+
+.rainbow-indigo {
+
+}
+
+.rainbow-blue {
+
+}
+
+.rainbow-green {
+
+}
+
+.rainbow-yellow{
+
+}
+
+.rainbow-orange {
+
+}
+
+.rainbow-red {
+
+}
+
+#narwhal {
+stroke-dasharray: 1982px;
+stroke-dashoffset: 1982px;
+animation: narwhal 2s linear forwards;
+}
+
+@keyframes narwhal {
+  to{
+    stroke-dashoffset: 0;
+  }
