@@ -7,8 +7,8 @@ h1 {
 }
 
 #rainbow {
-stroke-dasharray: 11125px;
-stroke-dashoffset: 11125px;
+stroke-dasharray: 1917px;
+stroke-dashoffset: 1917px;
 animation: rainbow 2s linear forwards;
 }
 
@@ -20,38 +20,44 @@ animation: rainbow 2s linear forwards;
 }
 
 .rainbow-violet {
+  stroke-dasharray: 1917px;
+  stroke-dashoffset: 1917px;
 }
 
-
-
 .rainbow-indigo {
-
+  stroke-dasharray: 1812px;
+  stroke-dashoffset: 1812px;
 }
 
 .rainbow-blue {
-
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
 }
 
 .rainbow-green {
-
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
 }
 
 .rainbow-yellow{
-
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
 }
 
 .rainbow-orange {
-
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
 }
 
 .rainbow-red {
-
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
 }
 
 #narwhal {
 stroke-dasharray: 1982px;
 stroke-dashoffset: 1982px;
-animation: narwhal 2s linear forwards;
+animation: narwhal 1s linear forwards;
 }
 
 @keyframes narwhal {
